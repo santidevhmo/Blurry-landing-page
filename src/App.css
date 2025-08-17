@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import "tailwindcss";
+@plugin "tailwindcss-motion";
+
+@theme {
+    --color-gradient-purple: #9929EA;
+    --color-gradient-pink: #CC66DA;
+    --font-Koh-Santepheap: "Koh Santepheap", serif;
+    --font-Homemade-apple: "Homemade Apple", cursive;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
