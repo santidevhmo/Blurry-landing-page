@@ -26,7 +26,7 @@ const ChromeStoreBtn = () => {
       ></div>
       <div className="relative flex items-center justify-center gap-2">
         <span
-          className="inline-flex gap-4 text-lg font-normal bg-gradient-to-b from-[#D69DDE] to-[#B873F8] bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(199,135,246,0.4)] tracking-tighter select-none"
+          className="inline-flex gap-4 text-lg font-normal bg-gradient-to-b from-[#D69DDE] to-[#B873F8] bg-clip-text text-transparent drop-shadgow-[0_0_12px_rgba(199,135,246,0.4)] tracking-tighter select-none"
         >
           Download on the Chrome Web Store 
           {/* <img className="w-6 fill-[#B873F8]" src="/chromeStore.svg" alt="Chrome Store Icon" /> */}
