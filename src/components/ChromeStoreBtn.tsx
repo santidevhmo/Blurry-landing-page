@@ -1,9 +1,13 @@
 'use client';
 
 const ChromeStoreBtn = () => {
+  const handleClick = () => {
+    window.open('https://chromewebstore.google.com/detail/doglmhhognpfnoeaonombfbjaogpgaee?utm_source=item-share-cb', '_blank');
+  };
 
   return (
     <button
+      onClick={handleClick}
       className="relative h-12 px-8 rounded-lg overflow-hidden transition-all duration-200 group cursor-pointer transform active:scale-90 motion-preset-fade motion-duration-4000 motion-delay-3500"
     >
       <div
